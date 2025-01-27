@@ -23,7 +23,7 @@ public class GeoBot {
     private static final Map<Long, List<Long>> userRequests = new HashMap<>();
 
     public static void main(String[] args) {
-        String telegramToken = System.getenv("8136864127:AAHjcrw_Q3kEan76wkc2it4Xq5YDNMuXvwA");
+        String telegramToken = "8136864127:AAHjcrw_Q3kEan76wkc2it4Xq5YDNMuXvwA";
         if (telegramToken == null || telegramToken.isEmpty()) {
             throw new IllegalStateException("Telegram token is not set in environment variables.");
         }
